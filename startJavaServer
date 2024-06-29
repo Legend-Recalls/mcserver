@@ -1,6 +1,8 @@
 #!/bin/bash
 export MAIN_DIR=$PWD
-export JAVA=$MAIN_DIR/bin/java_bins/bin/java
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export JAVA=$JAVA_HOME/bin/java
+
 cd server
 
 mem=$(grep MemTotal /proc/meminfo | sed -e 's/MemTotal:[ ]*//' | sed -e 's/ kB//') # some new stuff 
