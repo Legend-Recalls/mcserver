@@ -44,7 +44,7 @@ You can view your exact specs by doing `./specinfo`
 * Activate a [Google Cloud Shell](https://console.cloud.google.com/) on Google cloud.
 * Clone this GitHub Project into the Console:
 ```
-git clone https://github.com/lordofwizard/mcserver
+git clone https://github.com/legend-recalls/mcserver
 ```
 * Go into `mcserver` directory:
 ```
